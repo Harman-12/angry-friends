@@ -64,6 +64,7 @@ function draw(){
         fill("white")
         text("Score  " + score, width-300, 50)
 
+    fill("red")
         if(score === 400){
             text("YOU WIN", 550, 100);
             
