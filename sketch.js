@@ -64,13 +64,14 @@ function draw(){
         fill("white")
         text("Score  " + score, width-300, 50)
 
-    fill("red")
+    
         if(score === 400){
+             fill("red")
             text("YOU WIN", 550, 100);
             
         }
         
-       
+        fill("red")
         text("ANGRY FRIENDS", 500, 50);
 
 
